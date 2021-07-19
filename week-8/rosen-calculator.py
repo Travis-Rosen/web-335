@@ -3,6 +3,11 @@
 #7/18/2021
 #Simple math equations using python
 
+#Welcome statement
+def welcome(name):
+    return "Welcome to {} python calculator!".format(name)
+print(welcome("Travis Rosen's"))
+
 #This function will use addition to combine two numbers. 
 num1 = 10
 num2 = 10
@@ -19,7 +24,3 @@ print(z)
 a = 250
 b = 15
 print('a / b =',a/b)
-
-
-
-
